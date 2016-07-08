@@ -92,12 +92,16 @@ setup(name='Python-contrib-nbextensions',
       license='BSD',
       install_requires=[
           'jupyter_core',
+          'jupyter_nbextensions_configurator',
           'nbconvert',
           'notebook',
           'psutil >= 2.2.1',
           'pyyaml',
           'tornado',
           'traitlets',
+      ],
+      setup_requires=[
+          'jupyter_nbextensions_configurator',
       ],
       #packages=['IPython-contrib-nbextensions'],
       # **addargs

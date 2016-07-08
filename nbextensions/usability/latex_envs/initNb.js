@@ -1,3 +1,4 @@
+
 // Initializations
 
 
@@ -235,4 +236,5 @@ $('#suicide').on('click', function (){
 ).tooltip({ title : 'Close the LaTeX-envs configuration toolbar' ,trigger: "hover",  delay: {show: 500, hide: 50}});
     
 } 
+
 
